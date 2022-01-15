@@ -43,6 +43,7 @@ nav {
 .banner {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 100px auto;
 }
 .banner-left {
   display: flex;
@@ -213,20 +214,32 @@ nav {
   .collections {
     grid-template-columns: repeat(1, 1fr);
   }
+  .photo {
+    height: 100%;
+  }
+  .collection img {
+  }
   .banner,
   .collect,
   .feature {
     grid-template-columns: 1fr;
   }
+  .banner-right img {
+    width: 90%;
+  }
   .banner-left {
     order: 2;
+    text-align: center;
   }
   .feature-left {
     order: 2;
+    text-align: center;
   }
-  .primary-button,
-  .feature-button {
-    justify-content: center;
+  .feature-left img {
+    width: 90%;
+  }
+  .feature-right {
+    text-align: center;
   }
   .icon {
     display: grid;
